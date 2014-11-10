@@ -4,4 +4,4 @@
 
 for count in range (1,20):
     answer = count * 2.2
-    print("{0} kg":<2 "=" "{1} pounds":>2 .format(count,answer))
+    print("{0:<5} kg = {1:>5} pounds" .format(count,answer))
